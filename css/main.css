@@ -1,0 +1,143 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: url(../foto/background.jpg) no-repeat center top / cover ;
+	
+	
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div { 
+	box-sizing: border-box;
+}
+
+.link {
+	text-decoration: none;
+}
+	
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+/*логотипи*/
+.logo {
+	width: 300px;
+}
+
+.nike {
+	width: 70px;
+	margin-top:  20px;
+}
+
+.yokohama {
+	width: 110px;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+
+.header1 {
+	margin-top: 50px;
+}
+
+.header1_logo {
+	float:right;
+}
+
+.header1_logo:first-child {
+	float:left;
+}
+
+/*меню*/
+.header2 {
+	margin-top: 15px;
+}
+
+#navigation {
+	background-color:#000080;
+	height: 60px;
+	text-align:center;
+	border-bottom: 2px solid #0000CD;
+}
+
+#navigation ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li {
+	float: left;
+	position: relative;
+	width: 120px;
+}
+
+#navigation ul li:last-child {
+	float: right;
+}
+
+#navigation ul li a {
+	background-color:#000080;
+	color:#F0F8FF;
+	padding: 0 10px;
+	text-decoration: none;
+	line-height:60px;
+	display: block;
+	height:60px;
+}
+
+.search {
+	line-height:60px;
+	margin-right: 60px;
+}
+
+#navigation ul li a:hover {
+	color:#000080;
+	background-color:#F0F8FF;
+}
+
+#navigation .submenu {
+	position: absolute;
+	top: 100%;
+	width: 120px;
+	display: none;
+}
+
+#navigation li:hover .submenu {
+	display: block;
+}
+
+#navigation .submenu li {
+	width: 100%;
+	line-height: 45px;
+}
+
+#navigation .submenu li a {
+	line-height: 45px;
+	height:45px;
+}
+
+/* силки на соц.мережі, ютуб....*/
+
+.footer_link {
+	height: 50px;
+	background-color:#000080;
+	
+}	
+
+.footer_link img {
+	background-color:#000080;
+	width: 40px;
+}
+
+.icon {
+	margin: 0 auto;
+}
+	
